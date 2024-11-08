@@ -47,6 +47,7 @@ crashlytics = { group = "com.google.firebase", name = "firebase-crashlytics-ktx"
 analytics = { group = "com.google.firebase", name = "firebase-analytics-ktx", version = "22.1.0" }
 hilt = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
 hilt-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt" }
+error-prone-annotations = { group = "com.google.errorprone", name = "error_prone_annotations", version = "2.35.1" }
 # wangchenyan
 common = { group = "com.github.wangchenyan", name = "android-common", version.ref = "common" }
 crouter-processor = { group = "com.github.wangchenyan.crouter", name = "crouter-processor", version.ref = "crouter" }

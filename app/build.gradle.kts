@@ -17,7 +17,7 @@ plugins {
 
 android {
     namespace = "me.wcy.music"
-    compileSdk = libs.versions.compileSdk.get().toInt()
+    compileSdkVersion(libs.versions.compileSdk.get().toInt())
 
     defaultConfig {
         applicationId = "me.wcy.music"
@@ -119,6 +119,7 @@ dependencies {
     implementation(libs.media3.ui)
     implementation(libs.preference)
     implementation(libs.flexbox)
+    implementation(libs.error.prone.annotations)
 
     ksp(libs.room.compiler)
     implementation(libs.room)
